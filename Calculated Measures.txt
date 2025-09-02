@@ -1,0 +1,54 @@
+Calculated Measures 
+
+1. Average Rating = AVERAGE('IMDB-Movie-Data'[Rating])
+
+2. Average Runtime = AVERAGE('IMDB-Movie-Data'[Runtime (Minutes)])
+
+3. Average Votes = AVERAGE('IMDB-Movie-Data'[Votes])
+
+4. Avg IMDb Rating = AVERAGE('IMDB-Movie-Data'[Rating])
+
+5. Avg Meta score = AVERAGE('IMDB-Movie-Data'[Meta score])
+
+6. Highest Movie Revenue = MAX ( 'IMDB-Movie-Data'[Revenue (Millions)] )
+
+7. Movie Count = COUNT('IMDB-Movie-Data'[Title])
+
+8. Movies by Year = COUNTROWS('IMDB-Movie-Data')
+
+9. Revenue by Year = SUM('IMDB-Movie-Data'[Revenue (Millions)])
+
+10. Total Movies = COUNTROWS('IMDB-Movie-Data')
+
+11. Total Revenue = SUM('IMDB-Movie-Data'[Revenue (Millions)])
+
+12. Total Votes = SUM('IMDB-Movie-Data'[Votes])
+
+13. Unique Actors = DISTINCTCOUNT ( 'IMDB-Movie-Data'[Actors] )
+
+
+Calculated Columns 
+
+1. Actors
+
+2. Description
+
+3. Director
+
+4. Genre
+
+5. Meta score
+
+6. Rank
+
+7. Rating
+
+8. Revenue (Millions)
+
+9. Runtime (Minutes)
+
+10. Title
+
+11. Votes
+
+12. Year
